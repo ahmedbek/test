@@ -2,10 +2,10 @@
  "name": "Hello World",
  "description": "Atlassian Connect app",
  "key": "com.example.myapp",
- "baseUrl": "https://www.instantssl.com",
+ "baseUrl": "https://www.instantssl.com/ssl-certificate-products",
  "vendor": {
      "name": "Example, Inc.",
-     "url": "https://www.instantssl.com"
+     "url": "https://www.instantssl.com/ssl-certificate-products"
  },
  "authentication": {
      "type": "none"
@@ -14,7 +14,7 @@
  "modules": {
      "generalPages": [
          {
-             "url": "/ssl-certificate-products/https.html",
+             "url": "/https.html",
              "key": "hello-world",
              "location": "system.top.navigation.bar",
              "name": {
